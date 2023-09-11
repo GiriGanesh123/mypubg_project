@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.main-page {
+    background-image: url('https://easthampton.com/wp-content/uploads/2019/03/blue-sky-bg-1.jpeg');
+    background-size: cover;
+    height: 400vh;
+    font-size: 18px;
+    font-family: Bree Serif;
+}
+
+.header {
+    color: white;
+}
+
+.pic {
+    border-radius: 15px;
+    height: 120px;
+    width: 140px;
+}
+
+.pubg-uc-element {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header1 {
+    text-decoration: underline white;
+    font-size: 55px;
+}
+
+.dropdown-menu {
+    background-color: transparent;
+}
+
+.image {
+    height: 60px;
+    width: 70px;
+}
+
+.first-one {
+    background-color: white;
+    height: 400px;
+    margin: 12px;
+    padding: 4px;
+    border-radius: 22px;
+}
+
+.dropdown-item1 {
+    color: white;
+    font-size: 18px;
+}
+
+
+.first-container {
+    margin-left: 32px;
+}
+
+.carousel-inner {
+
+    height: 500px;
+    border-radius: 25px;
+}
+
+.para {
+    color: green;
+}
+
+.star {
+    height: 40px;
+    width: 35px;
+}
+
+.fa {
+    height: 100px;
+    width: 150px;
+}
+
+.para1 {
+    margin-top: 14px;
+}
+
+.box {
+    margin: 12px;
+    padding: 18px;
+}
+
+.btn {
+    margin: 10px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 12px;
+    margin-bottom: 50px;
+    height: 50px;
+    width: 30%;
+}
+
+@media(max-width:767px) {
+    #firsts {
+        background-color: white;
+        height: 235px;
+        width: 680px;
+        margin: 3px;
+        padding: 1px;
+
+    }
+
+    #first-cont {
+        padding: 16px;
+    }
+
+    #mainpage {
+        font-size: 14px;
+        height: 400vh;
+        width: 685px;
+    }
+
+    #carousel-inners {
+        margin-top: 50px;
+        width: 680px;
+    }
+
+    #carousel {
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    #headings {
+        padding: 0px;
+        margin: 0px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #paras {
+        padding: 3px;
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    #pics {
+        margin: 3px;
+        height: 55px;
+        width: 55px;
+    }
+
+    #heads {
+        font-size: 16px;
+    }
+
+    #heade {
+        font-size: 16px;
+        padding-bottom: 27px;
+    }
+
+    #picts {
+        height: 14px;
+        width: 10px;
+    }
+
+    #boxes {
+        border: 0.5px solid lightgrey;
+        margin: 7px;
+        width: 120px;
+        height: 40px;
+    }
+
+    #center-box {
+        width: 100%;
+    }
+
+    #paragraph {
+        font-size: 14px;
+    }
+
+    #v-cards {
+        margin: 5px;
+        height: 200px;
+        width: 300px;
+        font-size: 8px;
+    }
+
+    #phot {
+        margin-right: 20px;
+        height: 12px;
+        width: 20px;
+    }
+
+
+
+    #button1 {
+        margin-bottom: 15px;
+        padding-top: 25px;
+    }
+
+    #buttons {
+        font-size: 13px;
+        margin-top: 4px;
+        height: 30px;
+        width: 15%;
+    }
+
+    #texter {
+        font-size: 45px;
+        color: black;
+    }
+
+    #razorimg {
+        border-radius: 18px;
+    }
+
+    #razorimg1 {
+        border-radius: 18px;
+        height: 94px;
+        width: 170px;
+    }
+
+    #razors {
+        border: 1px solid black;
+        font-size: 20px;
+        height: 100px;
+        width: 530px;
+    }
+
+    #center-box {
+        width: 680px;
+    }
+
+    #photo {
+        margin-left: 25px;
+        height: 100px;
+        width: 150px;
+    }
+
+    #photo1 {
+        margin-left: 40px;
+        height: 105px;
+        width: 160px;
+    }
+
+    #photo2 {
+        margin-left: 30px;
+        height: 105px;
+        width: 160px;
+    }
+
+    #para1 {
+        margin-bottom: 5px;
+    }
+
+    #purchase {
+        border: 1px solid black;
+        font-size: 16px;
+        height: 40px;
+    }
+
+    #highlite {
+        margin-left: 195px;
+        color: blue;
+
+    }
+
+}
+
+/*---------------------------------------------------Frame sizing:1200px  -------------------*/
+@media(max-width:1201px) {
+    #firsts {
+        background-color: white;
+        height: 235px;
+        width: 680px;
+        margin: 3px;
+        padding: 1px;
+
+    }
+
+    #first-cont {
+        padding: 16px;
+    }
+
+    #mainpage {
+        font-size: 14px;
+        height: 400vh;
+        width: 685px;
+    }
+
+    #carousel-inners {
+        margin-top: 50px;
+        width: 680px;
+    }
+
+    #carousel {
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+    }
+
+    #headings {
+        padding: 0px;
+        margin: 0px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    #paras {
+        padding: 3px;
+        margin: 0px;
+        font-size: 16px;
+    }
+
+    #pics {
+        margin: 3px;
+        height: 55px;
+        width: 55px;
+    }
+
+    #heads {
+        font-size: 16px;
+    }
+
+    #heade {
+        font-size: 16px;
+        padding-bottom: 27px;
+    }
+
+    #picts {
+        height: 14px;
+        width: 10px;
+    }
+
+    #boxes {
+        border: 0.5px solid lightgrey;
+        margin: 7px;
+        width: 120px;
+        height: 40px;
+    }
+
+    #center-box {
+        width: 100%;
+    }
+
+    #paragraph {
+        font-size: 14px;
+    }
+
+    #v-cards {
+        margin: 5px;
+        height: 200px;
+        width: 300px;
+        font-size: 8px;
+    }
+
+    #phot {
+        margin-right: 20px;
+        height: 12px;
+        width: 20px;
+    }
+
+
+
+    #button1 {
+        margin-bottom: 15px;
+        padding-top: 25px;
+    }
+
+    #buttons {
+        font-size: 13px;
+        margin-top: 4px;
+        height: 30px;
+        width: 15%;
+    }
+
+    #texter {
+        font-size: 45px;
+        color: black;
+    }
+
+    #razorimg {
+        border-radius: 18px;
+    }
+
+    #razorimg1 {
+        border-radius: 18px;
+        height: 94px;
+        width: 170px;
+    }
+
+    #razors {
+        border: 1px solid black;
+        font-size: 20px;
+        height: 100px;
+        width: 530px;
+    }
+
+    #center-box {
+        width: 680px;
+    }
+
+    #photo {
+        margin-left: 25px;
+        height: 100px;
+        width: 150px;
+    }
+
+    #photo1 {
+        margin-left: 40px;
+        height: 105px;
+        width: 160px;
+    }
+
+    #photo2 {
+        margin-left: 30px;
+        height: 105px;
+        width: 160px;
+    }
+
+    #para1 {
+        margin-bottom: 5px;
+    }
+
+    #purchase {
+        border: 1px solid black;
+        font-size: 16px;
+        height: 40px;
+    }
+
+    #highlite {
+        margin-left: 195px;
+        color: blue;
+
+    }
+
+}
+
+.matter {
+    color: black;
+    margin: 35px;
+}
+
+.goes {
+    margin-left: 105px;
+    width: 20%;
+    padding: 16px;
+}
+
+.seconds-container {
+    height: 100vh;
+    font-family: Bree Serif;
+}
+
+.photo {
+    height: 28px;
+    width: 45px;
+}
+
+.phot {
+    margin-right: 8px;
+    height: 25px;
+    width: 40px;
+}
+
+.raziy {
+    border-radius: 8px;
+    height: 145px;
+    width: 250px;
+}
+
+.center-part {
+    background-color: darkblue;
+    border-radius: 18px;
+    width: 100vw;
+}
+
+.v-card {
+    background-color: lightgrey;
+    margin: 10px;
+    height: 300px;
+    width: 400px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 16px;
+}
+
+.photos {
+    height: 150px;
+    width: 200px;
+}
+
+.photos1 {
+    height: 150px;
+    width: 260px;
+}
+
+.razor {
+    background-color: lightgrey;
+    text-align: center;
+    font-size: 33px;
+    margin-left: 55px;
+    margin-right: 255px;
+    border-radius: 15px;
+}
+
+.photos2 {
+    height: 150px;
+    width: 260px;
+}
+
+.paragraph {
+    margin-left: 75px;
+    font-size: 30px;
+
+}
+
+.photoes {
+    height: 150px;
+    width: 200px;
+}
+
+
+
+.puc {
+    margin-top: 85px;
+}
+
+.going {
+    padding: 8px;
+    margin-left: 60px;
+    margin-top: 12px;
+    border-radius: 15px;
+    background-color: #FF4500;
+    color: white;
+    width: 50%;
+
+}
+
+.headss {
+    color: white;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 75px;
+    text-align: center;
+    text-decoration: underline red;
+}
+
+.bottom-contains {
+    margin-top: 35px;
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.getting {
+    font-size: 25px;
+    margin: 6px;
+    border-radius: 12px;
+    padding: 6px;
+}
+
+.head-container {
+    padding: 25px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 25px;
+
+}
+
+.watch {
+    font-size: 38px;
+    margin-left: 320px;
+    color: white;
+}
+
+.embed-responsive {
+    border-radius: 30px;
+}
